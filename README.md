@@ -40,7 +40,7 @@ To train on a single node with single gpu run:
 ```
 python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py -c config/DINO/DINO_4scale.py
 ```
-To ease reproduction of our results we provide model checkpoint [here](). 
+To ease reproduction of our results we provide model checkpoint [here](https://figshare.com/s/01dd33b8ff14ffc32dd5). 
 Place the model in `./outputs_gal/` directory.
 
 ## Evaluation
