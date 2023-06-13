@@ -3,6 +3,7 @@ pycocotools
 submitit
 git+https://github.com/cocodataset/panopticapi.git#egg=panopticapi
 scipy
+astropy
 termcolor
 addict
 yapf
