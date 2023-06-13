@@ -36,7 +36,7 @@ def get_args_parser():
 
     # dataset parameters
     parser.add_argument('--dataset_file', default='coco')
-    parser.add_argument('--coco_path', type=str, default='RadioGalaxyNET_V4')
+    parser.add_argument('--coco_path', type=str, default='RadioGalaxyNET')
     parser.add_argument('--coco_panoptic_path', type=str)
     parser.add_argument('--remove_difficult', action='store_true')
     parser.add_argument('--fix_size', action='store_true')
@@ -52,7 +52,7 @@ def get_args_parser():
     parser.add_argument('--keypoint_loss_coef', default=1, type=float)
 
     # training parameters
-    parser.add_argument('--output_dir', default='outputs_gal/RGV4/v1',
+    parser.add_argument('--output_dir', default='outputs_gal',
                         help='path where to save, empty for no saving')
     parser.add_argument('--note', default='',
                         help='add some notes to the experiment')
