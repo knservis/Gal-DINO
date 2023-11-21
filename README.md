@@ -24,7 +24,7 @@ cd ../../..
 
 ## Data preparation
 
-Download and extract RadioGalaxyNET data from the link described in the datasheet.
+Download and extract RadioGalaxyNET data from [here](https://data.csiro.au/collection/61068).
 We expect the directory structure to be the following:
 ```
 ./RadioGalaxyNET/
