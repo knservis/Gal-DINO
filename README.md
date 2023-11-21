@@ -50,5 +50,5 @@ python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py -c confi
 ```
 
 ## License
-The License will be updated after publication. Note that the DINO is released under the Apache 2.0 license.
+Apache 2.0 license.
 
