@@ -1,6 +1,10 @@
 **Gal-DINO**
 ========
 
+[Journal Paper](https://doi.org/10.1017/pasa.2023.64)
+
+[NeurIPS 2023](https://nips.cc/virtual/2023/76102)
+
 ## Installation
 Create a Python 3.10.9 environement with CUDA 11.6.2.
 Then, install PyTorch 1.5.1+ and torchvision 0.6.1+:
