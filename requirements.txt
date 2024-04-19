@@ -6,5 +6,5 @@ scipy
 astropy
 termcolor
 addict
-yapf
+yapf==0.40.1
 timm
