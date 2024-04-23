@@ -274,7 +274,6 @@ def main(args):
                 f.write(json.dumps(log_stats) + "\n")
 
         return
-    copytree('../GalDINO', f'{args.output_dir}/GalDINO', ignore=ignore_patterns('RadioGalaxyNET_V4', 'outputs_gal', '.git'), dirs_exist_ok=True)
     print("Start training")
     start_time = time.time()
     best_map_holder = BestMetricHolder(use_ema=args.use_ema)

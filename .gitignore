@@ -1,0 +1,9 @@
+outputs_gal/
+RadioGalaxyNET
+RadioGalaxyNET/
+.vscode/
+models/dino/ops/MultiScaleDeformableAttention.egg-info
+*.pyc
+models/dino/ops/build/**
+models/dino/ops/dist/**
+**/__pycache__/
