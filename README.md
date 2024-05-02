@@ -14,7 +14,8 @@ conda activate gal-dino
 ```
 For Pawsey Setonix continue with (as of 22.4.2024):
 ```
-module load rocm/5.6.1 gcc/12.2.0  gromacs-amd-gfx90a/2023.2
+module use /software/setonix/unsupported/
+module load rocm/5.6.1
 pip install torch==2.1.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm5.6
 ```
 
