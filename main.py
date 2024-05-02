@@ -381,13 +381,6 @@ def main(args):
     total_time_str = str(datetime.timedelta(seconds=int(total_time)))
     print('Training time {}'.format(total_time_str))
 
-    # remove the copied files.
-    copyfilelist = vars(args).get('copyfilelist')
-    if copyfilelist and args.local_rank == 0:
-        from datasets.data_util import remove
-        for filename in copyfilelist:
-            print("Removing: {}".format(filename))
-            remove(filename)
 
 
 if __name__ == '__main__':
